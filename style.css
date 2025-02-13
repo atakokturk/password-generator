@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+	box-sizing: 500px;
+}
+
+body {
+	background-color: #2b3146;
+	color: #fff;
+	display: flex;
+	font-family: 'Muli', sans-serif;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	min-height: 100vh;
+}
+
+p {
+	margin: 5px 0;
+}
+
+h2 {
+    font-size: 45px;
+	margin: 10px 0 20px;
+	text-align: center;
+}
+
+input[type=checkbox] {
+	margin-right: 0;
+}
+
+
+.container {
+	background-color: #212133;
+	box-shadow: 5px 20px 100px rgba(255, 255, 255, 0.2);
+	padding: 40px;
+	width: 500px;
+	max-width: 100%;
+}
+
+.result-container {
+	background-color: rgba(0, 0, 0, 0.4);
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	position: relative;
+    display:block;
+	font-size:30px;
+	letter-spacing: 1px;
+	padding: 12px 10px;
+	height: 45px;
+	width: 100%;
+}
+
+.result-container #result {
+  	word-wrap:normal;
+	max-width: calc(100% - 40px);
+}
+
+.result-container .btn {
+	font-size: 23px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+	position:absolute;
+	top: 5px;;
+	right: 5px;
+	height: 60px;
+	width: 60px;
+}
+
+.btn {
+	border: none;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 30px;
+	padding: 8px 12px;
+	background-color: #3c3c55;
+    text-align: center;
+}
+
+.btn-large {
+	display: block;
+	width: 100%;
+}
+input[type=checkbox] {
+  	-webkit-transform: scale(1.5); /* Safari and Chrome */
+  	-o-transform: scale(1.5); /*Opera*/
+  	transform: scale(1.5);
+}
+.script input:checkbox{
+	color: #634d4d;
+}
+#length{
+	transform: scale(1.3);
+}
+
+.setting {
+	display: flex;
+    font-size: 25px;
+	justify-content:space-between;
+	align-items: center;
+	margin: 25px 0;
+    width: auto;
+    height: 50%;
+}
+
+
+@media screen and (max-width: 400px) {
+	.result-container {
+		font-size: 14px;
+	}
+}
+
